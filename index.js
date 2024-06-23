@@ -71,9 +71,9 @@ process.on('uncaughtException', err => {
   console.log(err);
 });
 
-const express = require('express');
+/*const express = require('express');
 const app = express();
 app.all('/', (req, res) => {
   res.send(`Express Activated`);
 });
-app.listen(3030);
+app.listen(3030);*/
